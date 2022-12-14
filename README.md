@@ -4,7 +4,7 @@
 
 ## モデルアーキテクチャ
 ```mermaid
-    graph TD:
+    graph TD;
         Input-->LSTM(lstm_1);
         LSTM(lstm_1)-->LSTM(lstm_2);
         LSTM(lstm_2)-->Dense;
