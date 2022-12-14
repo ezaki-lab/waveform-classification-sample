@@ -5,8 +5,8 @@
 ## モデルアーキテクチャ
 ```mermaid
     graph TD;
-        Input-->LSTM(lstm_1);
-        LSTM(lstm_1)-->LSTM(lstm_2);
-        LSTM(lstm_2)-->Dense;
+        Input-->lstm_1;
+        lstm_1-->lstm_2;
+        lstm_2-->Dense;
         Dense-->Softmax;
 ```
