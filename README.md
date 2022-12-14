@@ -9,4 +9,5 @@
         lstm_1-->lstm_2;
         lstm_2-->Dense;
         Dense-->Softmax;
+        Softmax-->Output;
 ```
